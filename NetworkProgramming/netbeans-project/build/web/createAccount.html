@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Create Account</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h3 align="center">Create a new account</h3>
+        <form action="bank/service/newaccount" method="post">
+            <table align="center">
+                <tr><td>Name:</td><td><input type='text' name='name'/></td></tr>
+                <tr><td>Surname:</td><td><input type='text' name='surname'/></td></tr>
+                <tr><td>Tel:</td><td><input type='text' name='tel'/></td></tr>
+                <tr><td>Email:</td><td><input type='email' name='email'/></td></tr>
+            </table>
+            <p align='center'><input type='submit' value='Create Account' style="height:30px; width:120pxt;"/></p>
+        </form>
+        <p align="center"><a href="index.html">Back to Main Page</a></p>
+    </body>  
+</html>
